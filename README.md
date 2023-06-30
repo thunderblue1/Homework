@@ -35,11 +35,15 @@ This is not a task that Saint Peter alone should carry and we should all try to 
 
 List of requirements in user story format:
 
-- As a customer I would like to see all of the products so that I can browse for the bible I want.
+- As a customer I would like to see all the products so that I can browse for the bible I want.
 - As a customer I would like to search for a particular product so that I can find the bible I need.
-- As a customer I would like to see the details of the product so I can better know what I am purchasing.
+- As a customer I would like to see the details of a product so that I can better know what I am purchasing.
+- As a customer I would like to add a product to a cart so that I can make a purchase.
+- As a customer I would like to register as a user so that I can log in.
+- As a customer I would like to be able to log in so that I can place an order.
+- As a sales manager I would like to be able to log in so that I can manage inventory.
 - As a sales manager I would like to be able to create a product so that I can update our inventory.
-- As a sales manager I would like to browse all of the products so that I can browse for a bible that may need information updated.
+- As a sales manager I would like to browse all the products so that I can browse for a bible that may need information updated.
 - As a sales manager I would like to search for a product by multiple criteria so that I can find the product that needs updated.
 - As a sales manager I would like to be able to update a product so that I can keep the inventory information current.
 
@@ -62,9 +66,19 @@ List of requirements in user story format:
 ![UI6-ProductDetails](./Diagrams/UI6-ProductDetails.jpg)
 ![UI7-CreateProduct](./Diagrams/UI7-CreateProduct.jpg)
 ![UI8-UpdateProduct](./Diagrams/UI8-UpdateProduct.jpg)
+![UI9-ShoppingCart](./Diagrams/UI9-ShoppingCart.jpg)
 ---
 # Initial UML Classes
+![DaoAndModelUML](./Diagrams/UML.jpg) 
 
 ---
 # Risks
+I really have to balance my expectations with my available time so that I can stay on task.
+My biggest risk is running into bugs and running out of time.  I also may run into risks like type mismatching between
+objects returned from SQL and javascript types because I do not have experience using javascript to access SQL.
+My lack of experience with typescript, React and Angular may cause me to spend a lot of time looking things up.
+Another risk I run into is that the API we are creating is stateless and I may not be able to create a user session.
+Without the ability to create a session I could not log in.  There may be a solution for the need for stateful connections
+in Angular and React.  It may take time to learn stateful connections in Angular and React.
+Learning such things may fall outside the scope of the activities and be a hindrance to the planned course of learning.
 
