@@ -33,6 +33,17 @@ This is not a task that Saint Peter alone should carry and we should all try to 
 ---
 # Functionality
 
+List of requirements in user story format:
+
+- As a customer I would like to see all of the products so that I can browse for the bible I want.
+- As a customer I would like to search for a particular product so that I can find the bible I need.
+- As a customer I would like to see the details of the product so I can better know what I am purchasing.
+- As a sales manager I would like to be able to create a product so that I can update our inventory.
+- As a sales manager I would like to browse all of the products so that I can browse for a bible that may need information updated.
+- As a sales manager I would like to search for a product by multiple criteria so that I can find the product that needs updated.
+- As a sales manager I would like to be able to update a product so that I can keep the inventory information current.
+
+
 ---
 # Initial Database Design
 
