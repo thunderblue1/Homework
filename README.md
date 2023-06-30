@@ -50,6 +50,8 @@ List of requirements in user story format:
 
 ---
 # Initial Database Design
+![DatabaseRelations](./Diagrams/Relations.jpg)
+![ERDiagram](./Diagrams/ERDiagram.jpg)
 
 ---
 # Initial UI Sitemap
