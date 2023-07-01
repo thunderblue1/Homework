@@ -1,8 +1,8 @@
 # Discussion On Responses
 
-### Response Header
+### Response Headers
 ![Synchronous](../Diagrams/Discussion-ResponseHeaders.jpg)
 
-### Response body
+### Response Body
 ![Synchronous](../Diagrams/Discussion-ResponseBody.jpg)
 
