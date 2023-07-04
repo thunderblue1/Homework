@@ -19,6 +19,8 @@
 
     Figure 2 - This is a unit test being performed on activity 2 of this week.
 
+### ng lint
+
 ![Linting](../Diagrams/Discussion-NgLint.jpg)
 
     Figure 3 - Linting dependencies were added to an application and it was linted for bugs.
