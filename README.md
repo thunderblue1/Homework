@@ -5,7 +5,21 @@
 ### Author: John Keen
 
 ---
+# Instructor Feedback
 
+John, I LOVE IT!!! You get what I am asking!!! No more uploading ZIP files (I can see your code), no more Office requirements, MARKDOWN does all this for you AND FINALLY!!! This is a LIVING DOCUMENT.
+
+BOTTOM LINE: FANTASTIC SIR - I AM SO PUMPED UP with what you posted. KEEP DOING WELL and GOD BLESS YOU BROTHER, Bobby :-)
+
+---
+# Outline of Feedback Addressed
+
+Thank you for your support and encouragement.  I added a section entitled "Introduction to REST API" so that I could clearly outline
+the API.  I will continue to refine this document as the application is being developed as you have suggested.
+
+Thank you and God bless you.
+
+---
 # Introduction
 
 My organization will be called Saint Peter’s Table.  It is a charitable non-profit organization that will sell bibles to sponsor their good deeds.  Saint Peter’s Table is about bringing people to the table in regard to providing food for them to eat and knowledge for their souls to flourish.  In the bible Jesus had asked Peter to feed and take care of his sheep.
@@ -31,6 +45,11 @@ This is not a task that Saint Peter alone should carry and we should all try to 
 >
 
 ---
+# Introduction to REST API
+
+
+---
+
 # Functionality
 
 List of requirements in user story format:
