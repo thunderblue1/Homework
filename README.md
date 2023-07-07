@@ -15,7 +15,8 @@ BOTTOM LINE: FANTASTIC SIR - I AM SO PUMPED UP with what you posted. KEEP DOING 
 # Outline of Feedback Addressed
 
 Thank you for your support and encouragement.  I added a section entitled "Introduction to REST API" so that I could clearly outline
-the API.  I will continue to refine this document as the application is being developed as you have suggested.
+the API. I have also added the "Design Updates" section of this document.
+I will continue to refine this document as the application is being developed as you have suggested.
 
 Thank you and God bless you.
 
@@ -45,8 +46,97 @@ This is not a task that Saint Peter alone should carry and we should all try to 
 >
 
 ---
+# Design Updates
+
+The API was changed very little.  The username member was added to the "user" interface and the changes are now reflected
+in the ER diagram for the database and the class diagram.  The users database may be updated in the future to reflect the users relation to the company (i.e. Customer or Mangager).
+
+|                                      Updates                                       |                            Purpose                             |
+|:----------------------------------------------------------------------------------:|:--------------------------------------------------------------:|
+| username was added to the users relation<br/>of the database and to the interface. | Allow for the possability to look up a user by their username. |
+
+
+---
 # Introduction to REST API
 
+There are really two sets of routes for this API.  The first set of routes is the bible routes for Creating, Reading, Updating and Deleting bibles in the database.
+Then there are the users routes which are for Creating, Reading, Updating and Deleting a user of the site in the database.
+
+### Bibles Routes
+
+##### Route: GET /bibles
+##### DAO method: +readAllBibles(): Bible[]
+##### Purpose: Get all of the bibles from the database
+
+![readAllBibles](./Diagrams/Milestone3-BiblesAPI-readAllBibles.jpg)
+
+##### Route: GET /bibles?Id=2
+##### DAO method: +readOneBible(): Bible
+##### Purpose: Get the data for only one bible in the database
+
+![readOneBible](./Diagrams/Milestone3-BiblesAPI-readOneBible2.jpg)
+
+##### Route: GET /bibles/:bible
+##### DAO method: +readOneBible(): Bible
+##### Purpose: Get the data for only one bible in the database without using a URI string
+
+![readOneBible](./Diagrams/Milestone3-BiblesAPI-readOneBible.jpg)
+
+##### Route: GET /bibles/search/:search
+##### DAO method: +searchForBible(): BIble[]
+##### Purpose: Get an array of bibles based on search of name, description and version
+
+![searchForBible](./Diagrams/Milestone3-BiblesAPI-searchForBible.jpg)
+
+##### Route: POST /bibles
+##### DAO method: +createBible(): OkPacket
+##### Purpose: Create a bible by inserting it into the database
+
+![createBible](./Diagrams/Milestone3-BiblesAPI-createBible.jpg)
+
+##### Route: PUT /bibles
+##### DAO method: +updateBible(): OkPacket
+##### Purpose: Update a bible in the database
+
+![updateBible](./Diagrams/Milestone3-BiblesAPI-updateBible.jpg)
+
+##### Route: DELETE /bibles/:bibleId
+##### DAO method: +deleteBible(): OkPacket
+##### Purpose: Delete a bible
+
+![deleteBible](./Diagrams/Milestone3-BiblesAPI-deleteBible.jpg)
+
+### Users Routes
+
+##### Route: GET /users/:userId
+##### DAO method: +readOneUser(): User
+##### Purpose: Get the data for only one user in the database
+
+![readOneUser](./Diagrams/Milestone3-UsersAPI-readOneUser.jpg)
+
+##### Route: GET /users/:searchTerm
+##### DAO method: +searchForUser(): User
+##### Purpose: Get a user based on search of username
+
+![searchForUser](./Diagrams/Milestone3-UsersAPI-searchForUser.jpg)
+
+##### Route: POST /users
+##### DAO method: +createUser(): OkPacket
+##### Purpose: Create a user by inserting it into the database
+
+![createUser](./Diagrams/Milestone3-UsersAPI-createUser.jpg)
+
+##### Route: PUT /users
+##### DAO method: +updateUser(): OkPacket
+##### Purpose: Update a user in the database
+
+![updateUser](./Diagrams/Milestone3-UsersAPI-updateUser.jpg)
+
+##### Route: DELETE /users/:userId
+##### DAO method: +deleteUser(): OkPacket
+##### Purpose: Delete a user
+
+![deleteUser](./Diagrams/Milestone3-UsersAPI-deleteUser.jpg)
 
 ---
 
