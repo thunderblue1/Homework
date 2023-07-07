@@ -21,18 +21,18 @@ it to the component template in a h3 element.
 
 ---
 ### Screenshots
-![AngularCLI](../Diagrams/Activity2-AngularCLI.jpg)
+![AngularCLI](./Diagrams/Activity2-AngularCLI.jpg)
 
     Figure 1 - This screenshot shows that Angular CLI is correctly installed.
 
-![RunningAngular](../Diagrams/Activity2-FirstAngularApp.jpg)
+![RunningAngular](./Diagrams/Activity2-FirstAngularApp.jpg)
 
     Figure 2 - This is my first angular app being run using ng serve -o
 
-![TitleChanged](../Diagrams/Activity2-TitleChange.jpg)
+![TitleChanged](./Diagrams/Activity2-TitleChange.jpg)
 
     Figure 3 - The title was changed in the component and the title was automatically refreshed in the browser upon saving.
-![NewClassVariableMemeber](../Diagrams/Activity2-ClassMemberVariable.jpg)
+![NewClassVariableMemeber](./Diagrams/Activity2-ClassMemberVariable.jpg)
 
     A new class memeber variable was added to the component and then interpolated in an h3 element of the component template.
 
