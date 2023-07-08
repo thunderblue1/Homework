@@ -19,7 +19,7 @@
 
     Figure 2 - This shows a server being launched with the site hosted at 127.0.0.1:8080
 
-### ng lint
+### ng update
 
 ![ngupdate](./Diagrams/Discussion-NgUpdate.jpg)
 
