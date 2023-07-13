@@ -13,7 +13,6 @@
 ### Part 1: Basic Angular Components, Events, Routes, and Data Binding
 
 ---
-
 #### Part One Write-up
 
 In this part of the activity two components are created.  The form in the shop component will take a users name.
