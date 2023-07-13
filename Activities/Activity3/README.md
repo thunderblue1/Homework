@@ -23,6 +23,9 @@ The info component form has two events, one for submitting the form data to the 
 The key concepts presented in this part of the activity are component creation, form module implementation and two-way binding.
 The activity starts by adding bootstrap to the project and creating a responsive bootstrap grid.
 
+The code for this part of the project can be found here:
+[Part One](./simpleapp)
+
 #### Screenshots
 
 
@@ -92,6 +95,8 @@ Once an artist is selected (clicked on) then the div iterating over the artists 
 This is done using an NgIf directive.  NgIf directives are further used to hide all of the albums listed in the "list-album" component if a single album is selected and then
  show the "display-album" component for the selected album.  The key concepts presented in this activity include using a data service in angular, using routes, placing child components in a parent component and using directives to hide or show blocks of code in a view.
 
+The code for this part of the project can be found here:
+[Part Two](./musicapp)
 
 #### Screenshots
 
