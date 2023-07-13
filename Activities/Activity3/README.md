@@ -120,6 +120,8 @@ MathMax. (2020, March 26). Difference between [(ngmodel)] and [ngmodel] for bind
 
 #### Part Two Research
 
+This part of the activity required commenting the music-service.service.ts file.
+
 [Commented Code](CommentedCode.md)
 
 ---
