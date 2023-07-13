@@ -80,6 +80,8 @@ MathMax. (2020, March 26). Difference between [(ngmodel)] and [ngmodel] for bind
 ---
 ### Part 2: Creating a Music Application – The Front End
 
+
+
 ---
 
 #### Part Two Write-up
@@ -87,7 +89,34 @@ MathMax. (2020, March 26). Difference between [(ngmodel)] and [ngmodel] for bind
 
 #### Screenshots
 
+![Initial Application Page](./Diagrams/InitialPage.jpg)
 
+    Figure 1 - This is the initial page that is loaded when the server is run
+
+![GCU Homepage](./Diagrams/GCUHomepage.jpg)
+
+    Figure 2 - This is the GCU Homepage that is loaded when the link in the navbar is clicked on
+
+![Create Album Page](./Diagrams/CreateAlbumPage.jpg)
+
+    Figure 3 - This is the create component loaded into the single page application when the "Create Album" link is clicked on.
+
+![Artist List Page](./Diagrams/NewArtist.jpg)
+
+    Figure 4 - This is a list of Artists loaded as a componenent when the "Artist List" link is clicked on.
+    The component loaded is the list-artists component and it uses the "app-list-artists" selector.
+    It shows the new artist of the newly created album.
+
+![New Album](./Diagrams/NewAlbum.jpg)
+
+    Figure 5 - This is the "display-album" component loaded after the artist and then album was clicked on.
+    This figure was included to demonstrate the successful creation of an album.
+    This component uses the selector name of "app-display-album"
+
+![About Box](./Diagrams/AboutAlertPage.jpg)
+
+    Figure 6 - The "About" link will execute an alert that pops up an alert box with the version number.
+    This was per the activity instructions and works as expected.
 
 #### Part Two Research
 
