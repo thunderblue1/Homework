@@ -105,7 +105,8 @@ This is done using an NgIf directive.  NgIf directives are further used to hide 
 
 ![Create Album Page](./Diagrams/CreateAlbumPage.jpg)
 
-    Figure 3 - This is the create component loaded into the single page application when the "Create Album" link is clicked on.
+    Figure 3 - This is the "create-album" component loaded into the single page application when the "Create Album" link is clicked on.
+    The "create-album" component" is loaded into "router-outlet" element of the root component.
 
 ![Artist List Page](./Diagrams/NewArtist.jpg)
 
