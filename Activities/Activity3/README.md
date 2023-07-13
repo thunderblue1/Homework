@@ -23,9 +23,6 @@ The info component form has two events, one for submitting the form data to the 
 The key concepts presented in this part of the activity are component creation, form module implementation and two-way binding.
 The activity starts by adding bootstrap to the project and creating a responsive bootstrap grid.
 
-The code for this part of the project can be found here:
-[Part One](./simpleapp)
-
 #### Screenshots
 
 
