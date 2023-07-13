@@ -111,7 +111,7 @@ This is done using an NgIf directive.  NgIf directives are further used to hide 
 ![Artist List Page](./Diagrams/NewArtist.jpg)
 
     Figure 4 - This is a list of Artists loaded as a componenent when the "Artist List" link is clicked on.
-    The component loaded is the list-artists component and it uses the "app-list-artists" selector.
+    The component loaded is the list-artists component and it is loaded into the "router-outlet" element of the root component.
     It shows the new artist of the newly created album.
 
 ![New Album](./Diagrams/NewAlbum.jpg)
