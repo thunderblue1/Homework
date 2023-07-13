@@ -80,11 +80,17 @@ MathMax. (2020, March 26). Difference between [(ngmodel)] and [ngmodel] for bind
 ---
 ### Part 2: Creating a Music Application – The Front End
 
-
-
 ---
 
 #### Part Two Write-up
+
+This part of activity 3 required that a music application be created by coping files and writing code.
+The music app has a service that loads the albums from a json file containing all of the required albums.
+Components will access the data they need by utilizing the service.  When the "Artist List" link in the Navbar is clicked on the "list-artist" component is loaded
+into the "router-outlet" element.  If an artist is not selected then all of the artists are displayed.
+Once an artist is selected (clicked on) then the div iterating over the artists is hidden and the "list-albums" component is shown.
+This is done using an NgIf directive.  NgIf directives are further used to hide all of the albums listed in the "list-album" component if a single album is selected and then
+ show the "display-album" component for the selected album.  The key concepts presented in this activity include using a data service in angular, using routes, placing child components in a parent component and using directives to hide or show blocks of code in a view.
 
 
 #### Screenshots
