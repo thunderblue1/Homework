@@ -3,7 +3,7 @@
 ---
 ###### Student: John Keen
 ###### Professor: Bobby Estey
-###### Assignment: 
+###### Assignment: Angular Exports and Declarations Discussion
 ###### Date: 7/13/2023
 
 ---
