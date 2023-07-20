@@ -129,3 +129,44 @@ export class PercentComponent {
 
 ### Custom Pipe Example
 
+#### pepsi.pipe.ts
+
+```typescript
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'pepsi'
+})
+export class PepsiPipe implements PipeTransform {
+
+  transform(value: string): unknown {
+    return value+" and everyone loves Pepsi.";
+  }
+}
+```
+
+#### pepsi-play.component.ts
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-pepsi-play',
+  templateUrl: './pepsi-play.component.html',
+  styleUrls: ['./pepsi-play.component.css']
+})
+export class PepsiPlayComponent {
+  sentenceStart = "My name is John and I like walking"
+}
+```
+
+#### pepsi-play.component.html
+
+```html
+<p>pepsi-play works!</p>
+<p>{{sentenceStart|pepsi}}</p>
+```
+
+![Pepsi-play Component Output](./Diagrams/PepsiPipe.jpg)
+
+---
