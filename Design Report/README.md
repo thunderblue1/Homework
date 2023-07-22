@@ -57,6 +57,15 @@ in the ER diagram for the database and the class diagram.  The users database ma
 | 7/20/2023 |                  Relation field added to users table of database.                  | Allow the ability to differentiate between customers and managers. |
 | 7/21/2023 |                     User Registration form slightly modified.                      |                  Ensure proper binding to model.                   |
 
+##### Pending Issues for Angular Front End
+
+|   Date    |                                                   Issue                                                    |
+|:---------:|:----------------------------------------------------------------------------------------------------------:|
+| 7/22/2023 |                                      Form validation is still needed                                       |
+| 7/22/2023 |                                 A secure means of authorization is needed                                  |
+| 7/21/2023 |                     The original design does not have a quantity for each item in cart                     |
+
+
 
 ---
 # Introduction to REST API
