@@ -51,9 +51,11 @@ This is not a task that Saint Peter alone should carry and we should all try to 
 The API was changed very little.  The username member was added to the "user" interface and the changes are now reflected
 in the ER diagram for the database and the class diagram.  The users database may be updated in the future to reflect the users relation to the company (i.e. Customer or Mangager).
 
-|                                      Updates                                       |                            Purpose                             |
-|:----------------------------------------------------------------------------------:|:--------------------------------------------------------------:|
-| username was added to the users relation<br/>of the database and to the interface. | Allow for the possability to look up a user by their username. |
+|   Date    |                                      Updates                                       |                              Purpose                               |
+|:---------:|:----------------------------------------------------------------------------------:|:------------------------------------------------------------------:|
+| 7/6/2023  | Username was added to the users relation<br/>of the database and to the interface. |   Allow for the possability to look up a user by their username.   |
+| 7/20/2023 |                  Relation field added to users table of database.                  | Allow the ability to differentiate between customers and managers. |
+| 7/21/2023 |                     User Registration form slightly modified.                      |                  Ensure proper binding to model.                   |
 
 
 ---
