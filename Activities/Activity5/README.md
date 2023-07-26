@@ -15,7 +15,7 @@
 
 ---
 
-### Part 1: React Music App Introduction
+### Part 1: Custom Components
 
 #### Activity Summary Page
 
