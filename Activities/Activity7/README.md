@@ -148,5 +148,6 @@ The code for this part of the activity can be accessed here:
 ![OK Button](./Diagrams/Part7OKButton.jpg)
 
     This shows that the album information is correctly displayed when the card OK button is clicked on.
+    It also shows that the album year was successfully updated.
 
 ---
