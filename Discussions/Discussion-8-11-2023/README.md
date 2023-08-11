@@ -16,7 +16,7 @@ The idea behind this awfully looking program was simple.  It is to answer a ques
     What causes a component to render?
 
 The Car and Bicycle component are rendered when the parent component is rendered.  They are rendered again when I click
-the "Change State in Parent" button because when the state in the parent is changed the parent and it's children is reloaded.
+the "Change State in Parent" button because when the state in the parent is changed, the parent and it's children is reloaded.
 They are also re-rendered when a state in the component is changed.  When the "Honk!" or "Ding." button is clicked a state
 in the component is changed and the component is re-rendered.
 
