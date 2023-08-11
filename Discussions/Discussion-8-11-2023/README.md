@@ -28,7 +28,7 @@ As it turns out, no.  If any part of the state of a component is changed then it
 
 Yes.  Be careful with this though because sometimes a property isn't really changed.
 I created a variable with the "let" keyword and then passed it to the "Car" component as a property.
-When you click the "Change variable used in props(doesnt' do anything)" button the variable increases in value but
+When you click the "Change variable used in props(doesn't do anything)" button the variable increases in value but
 the props is not changed. What changes the value of a property?  A state could be used to set the property but then
 the parent component will be rendering again anyways and so will its children.  This is what occurs when you click on the "Change State passed to props"
 button.  The props of the child component do change and the child component is updated with the new value for the property.
