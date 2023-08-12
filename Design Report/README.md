@@ -65,7 +65,13 @@ in the ER diagram for the database and the class diagram.  The users database ma
 | 7/22/2023 |                                 A secure means of authorization is needed                                  |
 | 7/21/2023 |                     The original design does not have a quantity for each item in cart                     |
 
+##### Pending Issues for React Front End
 
+|   Date    |                                                   Issue                                                    |
+|:---------:|:----------------------------------------------------------------------------------------------------------:|
+| 8/12/2023 |                                      Form validation is still needed                                       |
+| 8/12/2023 |                                 A secure means of authorization is needed                                  |
+| 8/12/2023 |                     The original design does not have a quantity for each item in cart                     |
 
 ---
 # Introduction to REST API
